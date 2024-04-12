@@ -1,0 +1,95 @@
+/* FORMATAÇÃO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+body {
+    background-color: azure;
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* FORMATAÇÃO CABEÇALHO */
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 50px;
+    margin-right: 16px;
+}
+
+/* FORMATAÇÃO FORMULÁRIO */
+form {
+    margin: 30px 0;
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 6px;
+    margin-right: 16px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+form button {
+    border: none;
+    padding: 6px;
+    font-size: 20px;
+    background-color: #009432;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* FORMATAÇÃO TABELA */
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    font-size: 24px;
+    padding: 16px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: rgba(0, 0, 0, 0.1);
+}
+
+table td img {
+    height: 30px;
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 3px;
+}
+
+.aprovado {
+    background-color: #009432;
+    color: #fff;
+}
+
+.reprovado {
+    background-color: red;
+    color: #fff;
+}
